@@ -1,4 +1,3 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
 const HomePage = () => {
@@ -8,13 +7,6 @@ const HomePage = () => {
 
       <header>
         <h1>HomePage</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to={routes.about()}>About</Link>
-            </li>
-          </ul>
-        </nav>
       </header>
     </>
   )
